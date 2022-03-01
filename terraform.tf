@@ -7,7 +7,7 @@ terraform {
     }
 }
 
-providers {
+provider {
     features {}
 
 }
@@ -15,3 +15,4 @@ providers {
 resource "azurerm_resource_group" "examples" {
     name = "var.rgname"
     location = "var.rlname"
+}
