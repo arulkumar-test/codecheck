@@ -1,10 +1,8 @@
 variable "rlname" {
-    type = "string"
-    default = "West US"
+    default = "eastus"
 }
 
 variable "rgname" {
-    type = "string"
     default = "prodrg"
 
 }
